@@ -9,9 +9,8 @@ const Contact = () => (
     <hr />
     <div className="container">
       <div className="skill-container">
-        <FontAwesomeIcon className="skill" icon={faEnvelope} size="2x" />
-        <FontAwesomeIcon className="skill" icon={faLinkedin} size="2x" />
-        <FontAwesomeIcon className="skill" icon={faGithub} size="2x" />
+        <a href="https://www.linkedin.com/in/benharris8"><FontAwesomeIcon className="skill" icon={faLinkedin} size="2x" /></a>
+        <a href="https://www.github.com/benharris8"><FontAwesomeIcon className="skill" icon={faGithub} size="2x" /></a>
       </div>
 
     </div>

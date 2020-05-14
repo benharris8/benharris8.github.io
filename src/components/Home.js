@@ -5,7 +5,7 @@ const Home = () => (
     <div className="hero-body">
       <div className="container has-text-centered">
         <figure className="image is-128x128 has-image-centered headshot">
-          <img className="is-rounded" src="../images/Headshot.jpg" />
+          <img className="is-rounded" src="https://i.imgur.com/Egek8Pu.jpg" />
         </figure>
         <h1 className="title">
           Ben Harris
