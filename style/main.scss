@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+}
+
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headshot {
+  margin-bottom: 25px;
+  border: 2px solid black;
+  border-radius: 65px;
+}
+
+.is-fullheight {
+  height: 100vh;
+}
+
+.main-content {
+  margin: 0 auto;
+}
+
+.home {
+  background-color: #001f3f;
+  .title, .subtitle {
+    color: #FFFFFF;
+  }
+}
+
+.about {
+  background-color: #7FDBFF;
+}
+
+.projects {
+  background-color: #7FDBFF;
+  display: flex;
+  height: 100vh;
+}
+
+.contact {
+  background-color:#7FDBFF;
+}
+
+.skills {
+  background-color: #7FDBFF;
+}
+
+.skill-container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+
+  .skill {
+    margin: 10px
+  }
+}
+
+.experience {
+  background-color: #7FDBFF;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  flex: 6;
+  margin-top: -25px;
+}
+
+.arrow {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+
+  .project-desc {
+    flex: 2;
+    padding-bottom: 20px;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 0 -20px -30px -20px;
+    text-overflow: clip;
+    overflow: hidden;
+
+  }
+
+  .project-screenshots{
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-content {
+    max-width: 50vw;
+  }
+
+  .project-content {
+    
+  }
+
+  .project-screenshots {
+    max-width: 80vw;
+    width: 80vw;
+    margin-top: -50px !important;
+  }
+  
+  .left-arrow {
+    margin-left: 25vw;
+  }
+  .right-arrow {
+    margin-right: 25vw;
+  }
+
+  .skill-container {
+    max-width: 25vw;
+  }
+  
+  .experiences {
+    flex-direction: row;
+    .experience-entry {
+      margin: 0 20px 0 20px;
+    }
+  }
+}
