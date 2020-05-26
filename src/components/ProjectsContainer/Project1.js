@@ -19,8 +19,8 @@ const Project1 = () => {
       <h2 className="subtitle">Solo Project | 1 Week</h2>
       <div className="project-content">
         <p className="project-desc">
-          For this project I created an implementation of Pac Man which uses an A-Star search algorithm for the ghost pathing logic <br/>
-          This was made using HTML5/CSS3 and JavaScript. I used JavaScript to manipulated the DOM.
+          For this project, I created an implementation of Pac Man which uses an A-Star search algorithm for the ghost pathing logic. <br/>
+          This was made using HTML5/CSS3 and JavaScript. I used JavaScript to manipulate the DOM.
         </p>
         <div className="project-screenshots">
           <ImageGallery items={images} showPlayButton={false} showFullscreenButton={false} />

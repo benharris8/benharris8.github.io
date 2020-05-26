@@ -8,10 +8,10 @@ const About = () => (
       <p>Hi there, I'm Ben Harris.</p>
       <p className="main-content">
         I'm a Junior Software Engineer who recently graduated from General Assembly's Software Engineering Immersive course,
-        a 14 week intensive programming course aimed at teaching students up to date web development technologies and practices.
+        a 14 week intensive programming course aimed at teaching students up-to-date web development technologies and practices.
         <br />
         <br />
-        After graduating I am splitting my time between learning C++ and working on a 'Book Diary' application using the MERN stack.
+        After graduating, I am splitting my time between learning C++ and working on a 'Book Diary' application using the MERN stack.
       </p>
     </div>
     <hr />

@@ -20,10 +20,10 @@ const Project2 = () => {
   return <section className="section project main-content">
     <div className="container">
       <h1 className="title">Drinkalicious</h1>
-      <h2 className="subtitle">Pair Project | 2 Days</h2>
+      <h2 className="subtitle">Paired Project | 2 Days</h2>
       <div className="project-content">
         <div className="project-desc">
-          We were tasked with creating a Reactjs front-end for a public API of our choice. <br/>
+          We were tasked with creating a React.js front-end for a public API of our choice. <br/>
           My partner and I decided on a cocktail API which serves a list of cocktails, their ingredients, and the recipe to create them. <br/>
         </div>
         <div className="project-screenshots">

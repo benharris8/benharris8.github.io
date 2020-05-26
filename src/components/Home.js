@@ -11,7 +11,7 @@ const Home = () => (
           Ben Harris
         </h1>
         <h2 className="subtitle">
-          Junior Software Engineer | GA Graduate
+          Junior Software Engineer | General Assembly Graduate
         </h2>
       </div>
     </div>

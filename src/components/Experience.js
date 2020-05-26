@@ -14,11 +14,11 @@ const Experience = () => {
           </h2>
           <div className="experience-content">
             <p>
-              I took the Software Engineering Immersive course with General Assembly. <br />
+              At GA, I took the Software Engineering Immersive course. <br />
             This was a 12 week intensive programming course during which we made four projects with the skills we gained. <br />
             </p>
             <p>
-              Whilst at General Assembly I learned many modern web development technologies such as JavaScript, React, Express.js and Django which I used to create the four projects listed above.<br /><br />
+              Whilst at General Assembly, I learned many modern web development technologies such as JavaScript, React, Express.js and Django which I used to create the four projects listed above.<br /><br />
             </p>
           </div>
         </div>
